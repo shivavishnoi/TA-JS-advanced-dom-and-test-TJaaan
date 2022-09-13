@@ -21,7 +21,7 @@ function getArea(radius) {
   return `The area is ${3.14 * radius ** 2}`;
 }
 
-modules.exports = {
+module.exports = {
   getFullName,
   isPalindrome,
   getCircumference,
